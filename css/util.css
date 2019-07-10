@@ -10355,8 +10355,8 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 }
 
 .size14 {
-    width: 118px;
-    height: 118px;
+    width: 250px;
+    height: 250px;
 }
 
 .size15 {
@@ -10444,7 +10444,7 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 }
 
 .size34 {
-    min-height: 320px;
+    min-height: 250px;
 }
 
 .size35 {
@@ -10483,7 +10483,7 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 }
 
 .bg0-hov:hover {
-    background-color: #ec1d25;
+    background-color: #ff0000;
 }
 
 .bg1-overlay {
@@ -10504,7 +10504,15 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 }
 
 .bo4 {
-    border: 4px solid #ec1d25;
+    border: 3px solid #fd7e14;
+}
+
+.bo5 {
+    border: 3px solid #009acd;
+}
+
+.bo6 {
+    border: 3px solid #ff0000;
 }
 
 .bo5-b {
