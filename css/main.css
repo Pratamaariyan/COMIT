@@ -1,9 +1,9 @@
 /*------------------------------------------------------------------
-Project:  Pato
+Project:  COMIT
 Version:  
 Last change:  
-Assigned to:  Kevin Nguyen
-Primary use:  Company
+Assigned to:  Ariyan Lukita
+Primary use:  
 -------------------------------------------------------------------*/
 
 
@@ -149,7 +149,7 @@ p {
     font-weight: 400;
     font-size: 15px;
     line-height: 1.7;
-    color: #666666;
+    color: #=grey;
     margin: 0px;
 }
 
@@ -661,7 +661,7 @@ input[type="date" i] {
     font-size: 14px;
     text-transform: uppercase;
     color: white;
-    padding: 15px;
+    padding: 5px;
 }
 
 .header-fixed .main_menu>li>a {
@@ -1072,7 +1072,7 @@ input[type="date" i] {
 */
 
 .btn3 {
-    background: #111111;
+    background: #16469D;
     border-radius: 10px;
 }
 
