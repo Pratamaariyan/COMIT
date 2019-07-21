@@ -9821,8 +9821,8 @@
 
 .ab-b-r {
     position: absolute;
-    right: 0px;
-    bottom: 0px;
+    right: 5px;
+    bottom: 5px;
 }
 
 
@@ -9940,6 +9940,15 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 /*[ Text ]
 -----------------------------------------------------------
 */
+
+.txtbtnregist {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 
 .txt1 {
     font-family: Courgette;
@@ -10293,8 +10302,8 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 */
 
 .size1 {
-    width: 135px;
-    height: 40px;
+    width: 200px;
+    height: 25px;
 }
 
 .size2 {
@@ -10350,8 +10359,8 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 }
 
 .size13 {
-    width: 150px;
-    height: 40px;
+    width: 200px;
+    height: 35px;
 }
 
 .size14 {
@@ -10463,6 +10472,16 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 
 .size38 {
     max-width: 190px;
+}
+
+.sizebtnsidebar {
+    width: 200px;
+    height: 35px;
+}
+
+.sizebtnregist {
+    width: 250px;
+    height: 50px;
 }
 
 
