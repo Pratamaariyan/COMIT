@@ -32,7 +32,29 @@
     <link rel="stylesheet" type="text/css" href="css/util.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <!--===============================================================================================-->
+    <style>
+    /* The overlay effect - lays on top of the container and over the image */
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        /* Black see-through */
+        color: #f1f1f1;
+        width: 100%;
+        transition: .5s ease;
+        opacity: 0;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+    }
 
+    /* When you mouse over the container, fade in the overlay title */
+    .container:hover .overlay {
+        opacity: 1;
+    }
+    </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -288,12 +310,13 @@
     <!-- COMIT APPS -->
     <div class="container">
         <div class="row">
-            <div class="col-md-6 p-b-50">
+            <div class="col-md-6 p-b-20">
                 <div class="wrap-pic-welcome size2 bo-rad-10 hov-img-zoom m-l-r-auto">
                     <img src="images/Android.jpg" alt="Android">
                 </div>
             </div>
-            <div class="col-md-6 p-t-125 p-b-50 d-none d-md-block d-lg-block">
+            <!-- <div class="col-md-6 p-t-125 p-b-50 d-none d-md-block d-lg-block"> -->
+            <div class="col-md-6 p-t-125 p-b-50 text-center d-md-block d-lg-block">
                 <div class="wrap-text-welcome t-center">
                     <span class="tit2 t-center">Get Us</span>
                     <h3 class="tit3 t-center m-b-35 m-t-5">
@@ -301,7 +324,7 @@
                     </h3>
                     <button class="btn3 size13 txt11 trans-0-4"
                         onclick="window.open('https://drive.google.com/open?id=1-feThChOa3rzMwXVE3dX1KfBZ_AADfTb')">
-                        Download Now >
+                        Download Now <i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
                     </button>
                 </div>
             </div>
@@ -662,7 +685,7 @@
                             <!-- Item -->
                             <div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
                                 <img src="images/Program-Gallery.jpg" alt="Programming Training">
-
+                                <div class="overlay">My Name is John</div>
                                 <!-- Button -->
                                 <a href="#" class="btn2 text-center flex-c-m txt8 ab-b-r size1" onclick="return false;">
                                     Program Training
@@ -677,11 +700,9 @@
                     <!-- Item -->
                     <div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
                         <img src="images/Donor-Gallery.jpg" alt="Blood Donation">
-
+                        <div class="overlay"> Blood Donation</div>
                         <!-- Button -->
-                        <a href="#" class="btn2 flex-c-m txt8 ab-b-r size1" onclick="return false;">
-                            Blood Donation
-                        </a>
+
                     </div>
                 </div>
                 <div class="col-sm-6">
