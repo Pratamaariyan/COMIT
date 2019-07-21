@@ -266,7 +266,7 @@
             </div>
 
             <div class="row">
-                <div class="col-md-12 p-t-5 p-b-0">
+                <div class="col-md-12 p-t-5 p-b-50">
                     <div class="alert text-center alert-primary" role="alert">
                         Menghasilkan anggota COMIT yang handal dalam dunia Informasi.
                     </div>
@@ -299,8 +299,9 @@
                     <h3 class="tit3 t-center m-b-35 m-t-5">
                         On Android
                     </h3>
-                    <button class="btn3 size13 txt11 trans-0-4">
-                        Download Now
+                    <button class="btn3 size13 txt11 trans-0-4"
+                        onclick="window.open('https://drive.google.com/open?id=1-feThChOa3rzMwXVE3dX1KfBZ_AADfTb')">
+                        Download Now >
                     </button>
                 </div>
             </div>
@@ -383,7 +384,7 @@
     <!-------------------------------------------------------------------------------------------------------------------------------------------------->
 
     <!-- Mentor -->
-    <section class="bgwhite p-t-75 p-b-50">
+    <section class="bgwhite p-t-10 p-b-50">
         <div class="container t-center">
             <span class="tit2 t-center">
                 Meet Our
@@ -475,7 +476,7 @@
                             </span>
 
                             <span class="dis-block t-center txt35 p-b-5">
-                                IT Support
+                                Web Developer IP
                             </span>
                         </div>
                     </div>
