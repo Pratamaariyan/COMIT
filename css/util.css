@@ -9941,6 +9941,24 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 -----------------------------------------------------------
 */
 
+.txtbtnprice {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 12px;
+    color: #EF430C;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.txtbtnorder {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 12px;
+    color: #4FA149;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 .txtbtnregist {
     font-family: Montserrat;
     font-weight: 700;
@@ -10301,8 +10319,13 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 -----------------------------------------------------------
 */
 
+.sizebtnproduct {
+    width: 125px;
+    height: 30px;
+}
+
 .size1 {
-    width: 200px;
+    width: 150px;
     height: 25px;
 }
 

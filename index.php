@@ -29,8 +29,9 @@
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="vendor/lightbox2/css/lightbox.min.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="css/util.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
     <!--===============================================================================================-->
     <style>
     /* The overlay effect - lays on top of the container and over the image */
@@ -130,6 +131,9 @@
         </div>
     </header>
 
+    <!-------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!-------------------------------------------------------------------------------------------------------------------------------------------------->
+
     <!-- Sidebar -->
     <aside class="sidebar trans-1-0 " id="asideModal">
         <!-- Button Hide sidebar -->
@@ -181,58 +185,11 @@
                     Registrasi
                 </a>
             </li>
-            <br></br>
+            <br>
             <li class="t-center m-b-13">
                 <img src="images/Robocom-Sidebar.png">
             </li>
         </ul>
-
-        <!-- - -->
-        <!-- <div class="gallery-sidebar t-center p-l-60 p-r-60 p-b-40"> -->
-        <!-- - -->
-        <!-- <h4 class="txt20 m-b-33">
-                Gallery
-            </h4> -->
-
-        <!-- Gallery -->
-        <!-- <div class="wrap-gallery-sidebar flex-w">
-                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-01.jpg" data-lightbox="gallery-footer">
-                    <img src="images/photo-gallery-thumb-01.jpg" alt="GALLERY">
-                </a>
-
-                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-02.jpg" data-lightbox="gallery-footer">
-                    <img src="images/photo-gallery-thumb-02.jpg" alt="GALLERY">
-                </a>
-
-                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-03.jpg" data-lightbox="gallery-footer">
-                    <img src="images/photo-gallery-thumb-03.jpg" alt="GALLERY">
-                </a>
-
-                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-05.jpg" data-lightbox="gallery-footer">
-                    <img src="images/photo-gallery-thumb-05.jpg" alt="GALLERY">
-                </a>
-
-                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-06.jpg" data-lightbox="gallery-footer">
-                    <img src="images/photo-gallery-thumb-06.jpg" alt="GALLERY">
-                </a>
-
-                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-07.jpg" data-lightbox="gallery-footer">
-                    <img src="images/photo-gallery-thumb-07.jpg" alt="GALLERY">
-                </a>
-
-                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-09.jpg" data-lightbox="gallery-footer">
-                    <img src="images/photo-gallery-thumb-09.jpg" alt="GALLERY">
-                </a>
-
-                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-10.jpg" data-lightbox="gallery-footer">
-                    <img src="images/photo-gallery-thumb-10.jpg" alt="GALLERY">
-                </a>
-
-                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-11.jpg" data-lightbox="gallery-footer">
-                    <img src="images/photo-gallery-thumb-11.jpg" alt="GALLERY">
-                </a>
-            </div> -->
-        <!-- </div> -->
     </aside>
 
     <!-- Jumbotron -->
@@ -248,7 +205,7 @@
     <!-------------------------------------------------------------------------------------------------------------------------------------------------->
 
     <!-- Struktur Organisasi -->
-    <section id="Structre">
+    <section id="Structure">
         <div class="col-md-12">
             <div class="p-t-75 p-b-50">
                 <div class="wrap-pic-welcome bo-rad-10 hov-img-zoom m-l-r-auto d-none d-md-block d-lg-block">
@@ -316,7 +273,7 @@
                 </div>
             </div>
             <!-- <div class="col-md-6 p-t-125 p-b-50 d-none d-md-block d-lg-block"> -->
-            <div class="col-md-6 p-t-125 p-b-50 text-center d-md-block d-lg-block">
+            <div class="col-md-6 p-t-125 p-b-50 text-center d-sm-block d-lg-block">
                 <div class="wrap-text-welcome t-center">
                     <span class="tit2 t-center">Get Us</span>
                     <h3 class="tit3 t-center m-b-35 m-t-5">
@@ -334,22 +291,22 @@
     <!-------------------------------------------------------------------------------------------------------------------------------------------------->
     <!-------------------------------------------------------------------------------------------------------------------------------------------------->
 
-    <div class="content-intro bg-white p-t-20 p-b-50" id="Training">
+    <div class="content-intro bg-white p-t-50 p-b-50" id="Training">
         <div class="container">
 
-            <div class="title-section-ourmenu t-center m-b-22">
+            <div class="title-section-ourmenu t-center">
                 <span class="tit2 t-center">
                     Let's Join
                 </span>
 
-                <h3 class="tit5 t-center m-t-2">
+                <h3 class="tit5 t-center  m-t-2">
                     Our Training
                 </h3>
             </div>
             <div class="row">
 
                 <!-- Computing & Network -->
-                <div class="col-md-4 p-t-15">
+                <div class="col-md-4 p-t-35">
                     <div class="blo1">
                         <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
                             <img src="images/Computing.jpg" alt="Computing">
@@ -358,7 +315,7 @@
                             <h4 class="txt5 m-b-15">
                                 Computing & Network
                             </h4>
-                            <button type="button" class="btn btn-outline-primary">
+                            <button type="button" class="btn txt5 btn-outline-primary">
                                 Join
                                 <i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i></button>
                         </div>
@@ -366,7 +323,7 @@
                 </div>
 
                 <!-- Programming -->
-                <div class="col-md-4 p-t-15">
+                <div class="col-md-4 p-t-35">
                     <div class="blo1">
                         <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
                             <img src="images/Programming.jpg" alt="Programming">
@@ -375,7 +332,7 @@
                             <h4 class="txt5 m-b-15">
                                 Programming
                             </h4>
-                            <button type="button" class="btn btn-outline-primary">
+                            <button type="button" class="btn txt5 btn-outline-primary">
                                 Join
                                 <i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i></button>
                         </div>
@@ -383,7 +340,7 @@
                 </div>
 
                 <!-- Graphic Design -->
-                <div class="col-md-4 p-t-15">
+                <div class="col-md-4 p-t-35">
                     <div class="blo1">
                         <div class="bo-rad-10 pos-relative hov-img-zoom">
                             <img src="images/Graphic-Design.jpg" alt="Graphic Design">
@@ -392,7 +349,7 @@
                             <h4 class="txt5 m-b-15">
                                 Graphic Design
                             </h4>
-                            <button type="button" class="btn btn-outline-primary">
+                            <button type="button" class="btn txt5 btn-outline-primary">
                                 Join
                                 <i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i></button>
                         </div>
@@ -407,17 +364,17 @@
     <!-------------------------------------------------------------------------------------------------------------------------------------------------->
 
     <!-- Mentor -->
-    <section class="bgwhite p-t-10 p-b-50">
+    <section class="bgwhite p-t-50 p-b-50">
         <div class="container t-center">
             <span class="tit2 t-center">
                 Meet Our
             </span>
 
-            <h3 class="tit5 t-center m-b-50 m-t-5">
+            <h3 class="tit5 t-center">
                 Mentor
             </h3>
 
-            <h3 class="tit10 t-center m-b-25 m-t-5">
+            <h3 class="tit10 t-center p-t-25 p-b-25">
                 Computing & Network
             </h3>
 
@@ -481,7 +438,7 @@
             </div>
         </div>
         <div class="container t-center">
-            <h3 class="tit10 t-center m-b-25 m-t-50">
+            <h3 class="tit10 t-center m-t-25 m-b-25">
                 Programming
             </h3>
 
@@ -545,7 +502,7 @@
             </div>
         </div>
         <div class="container t-center">
-            <h3 class="tit10 t-center m-b-25 m-t-50">
+            <h3 class="tit10 t-center m-t-25 m-b-25">
                 Graphic Design
             </h3>
 
@@ -614,14 +571,14 @@
     <!-------------------------------------------------------------------------------------------------------------------------------------------------->
 
     <!-- Gallery -->
-    <section class="section-ourmenu bg2-pattern p-t-30 p-b-50" id="Gallery">
+    <section class="section-ourmenu bg2-pattern p-t-50 p-b-50" id="Gallery">
         <div class="container">
-            <div class="title-section-ourmenu t-center m-b-22">
+            <div class="t-center">
                 <span class="tit2 t-center">
                     Discover
                 </span>
 
-                <h3 class="tit5 t-center m-t-2">
+                <h3 class="tit5 t-center">
                     Our Gallery
                 </h3>
             </div>
@@ -633,11 +590,7 @@
                             <!-- Item -->
                             <div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
                                 <img src="images/LDKO.jpg" alt="LDKO">
-
-                                <!-- Button -->
-                                <a href="#" class="btn2 flex-c-m txt8 ab-b-r size1" onclick="return false;">
-                                    LDKO
-                                </a>
+                                <div class="overlay">LDKO</div>
                             </div>
                         </div>
 
@@ -645,11 +598,7 @@
                             <!-- Item -->
                             <div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
                                 <img src="images/Staff.jpg" alt="Staff">
-
-                                <!-- Button -->
-                                <a href="#" class="btn2 flex-c-m txt8 ab-b-r size1" onclick="return false;">
-                                    Staff
-                                </a>
+                                <div class="overlay">Staff</div>
                             </div>
                         </div>
                     </div>
@@ -661,11 +610,7 @@
                             <!-- Item -->
                             <div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
                                 <img src="images/Network-Gallery.jpg" alt="Network Training">
-
-                                <!-- Button -->
-                                <a href="#" class="btn2 text-center flex-c-m txt8 ab-b-r size1" onclick="return false;">
-                                    Network Training
-                                </a>
+                                <div class="overlay">Network Training</div>
                             </div>
                         </div>
 
@@ -673,11 +618,7 @@
                             <!-- Item -->
                             <div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
                                 <img src="images/Graphic-Gallery.jpg" alt="Graphic Training">
-
-                                <!-- Button -->
-                                <a href="#" class="btn2 flex-c-m txt8 ab-b-r size1" onclick="return false;">
-                                    Design Training
-                                </a>
+                                <div class="overlay">Graphic Training</div>
                             </div>
                         </div>
 
@@ -685,11 +626,7 @@
                             <!-- Item -->
                             <div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
                                 <img src="images/Program-Gallery.jpg" alt="Programming Training">
-                                <div class="overlay">My Name is John</div>
-                                <!-- Button -->
-                                <a href="#" class="btn2 text-center flex-c-m txt8 ab-b-r size1" onclick="return false;">
-                                    Program Training
-                                </a>
+                                <div class="overlay">Programming Training</div>
                             </div>
                         </div>
                     </div>
@@ -700,20 +637,14 @@
                     <!-- Item -->
                     <div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
                         <img src="images/Donor-Gallery.jpg" alt="Blood Donation">
-                        <div class="overlay"> Blood Donation</div>
-                        <!-- Button -->
-
+                        <div class="overlay">Blood Donation</div>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <!-- Item -->
                     <div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
                         <img src="images/Seminar-Gallery.jpg" alt="Seminar Nasional">
-
-                        <!-- Button -->
-                        <a href="#" class="btn2 text-center flex-c-m txt8 ab-b-r size1" onclick="return false;">
-                            Seminar Nasional
-                        </a>
+                        <div class="overlay">National Seminar</div>
                     </div>
                 </div>
             </div>
@@ -725,7 +656,7 @@
 
     <!-- Business Partner -->
 
-    <div class="bg-white p-t-30 p-b-50" id="Business Partner">
+    <div class="bg-white p-t-50 p-b-50" id="Business Partner">
         <div class="container">
 
             <div class="title-section-ourmenu t-center m-b-22">
@@ -733,14 +664,14 @@
                     Visit
                 </span>
 
-                <h3 class="tit5 t-center m-t-2">
+                <h3 class="tit5 t-center">
                     Our Business Partner
                 </h3>
             </div>
             <div class="row">
 
                 <!-- Tech Insider -->
-                <div class="col-md-4 p-t-30">
+                <div class="col-md-4 p-t-20">
                     <div class="blo1">
                         <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
                             <img src="images/BP-Tech-Insider.jpg" alt="Tech Insider">
@@ -749,7 +680,7 @@
                             <h4 class="txt5 m-b-15">
                                 Tech Insider
                             </h4>
-                            <button type="button" class="btn btn-outline-primary"
+                            <button type="button" class="btn txt5 btn-outline-primary"
                                 onclick="window.open('Tech-Insider.html')">
                                 Visit
                                 <i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
@@ -759,7 +690,7 @@
                 </div>
 
                 <!-- Graphicom -->
-                <div class="col-md-4 p-t-30">
+                <div class="col-md-4 p-t-20">
                     <div class="blo1">
                         <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
                             <img src="images/BP-Graphicom.jpg" alt="Graphicom">
@@ -768,7 +699,7 @@
                             <h4 class="txt5 m-b-15">
                                 Graphicom
                             </h4>
-                            <button type="button" class="btn btn-outline-primary"
+                            <button type="button" class="btn txt5 btn-outline-primary"
                                 onclick="window.open('Graphicom.html')">
                                 Visit
                                 <i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
@@ -778,7 +709,7 @@
                 </div>
 
                 <!-- WayOut Development -->
-                <div class="col-md-4 p-t-30">
+                <div class="col-md-4 p-t-20">
                     <div class="blo1">
                         <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
                             <img src="images/BP-WayOut-Development.jpg" alt="WayOut Development">
@@ -787,7 +718,7 @@
                             <h4 class="txt5 m-b-15">
                                 Wayout Development
                             </h4>
-                            <button type="button" class="btn btn-outline-primary"
+                            <button type="button" class="btn txt5 btn-outline-primary"
                                 onclick="window.open('http://wayout-dev.com')">
                                 Visit
                                 <i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>

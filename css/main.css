@@ -1099,6 +1099,21 @@ input[type="date"i] {
 }
 
 
+/*[ Button4 ]
+///////////////////////////////////////////////////////////
+*/
+
+.btn4 {
+    background: #16469D;
+    border-radius: 5px;
+}
+
+.btn4:hover {
+    background-color: #b3ff00;
+    color: white;
+}
+
+
 /*[ Button Registrasi ]
 ///////////////////////////////////////////////////////////
 */
@@ -1126,6 +1141,42 @@ input[type="date"i] {
 .btnsidebar:hover {
     background-color: #00a2ff;
     color: white;
+}
+
+
+/*[ Button Price List ]
+///////////////////////////////////////////////////////////
+*/
+
+.btnprice {
+    background-color: white;
+    border-radius: 5px;
+    border: 0.5px solid #EF430C;
+    opacity: 1;
+}
+
+.btnprice:hover {
+    background-color: #EF430C;
+    color: white;
+    border: none;
+}
+
+
+/*[ Button Order ]
+///////////////////////////////////////////////////////////
+*/
+
+.btnorder {
+    background-color: white;
+    border-radius: 5px;
+    border: 0.5px solid #4FA149;
+    opacity: 1;
+}
+
+.btnorder:hover {
+    background-color: #4FA149;
+    color: white;
+    border: none;
 }
 
 
