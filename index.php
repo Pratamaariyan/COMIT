@@ -34,6 +34,11 @@
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <!--===============================================================================================-->
     <style>
+    html {
+        scroll-behavior: smooth;
+    }
+    </style>
+    <style>
     /* The overlay effect - lays on top of the container and over the image */
     .overlay {
         position: absolute;
@@ -187,7 +192,7 @@
             </li>
             <br>
             <li class="t-center m-b-13">
-                <img src="images/Robocom-Sidebar.png">
+                <img src="images/Robocom-Sidebar.svg">
             </li>
         </ul>
     </aside>
@@ -200,6 +205,41 @@
         <div class="item-slick1 item1-slick1 d-sm-block d-md-none" style="background-image: url(images/Home-2.jpg);">
         </div>
     </section>
+
+    <!-------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!-------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <!-- About Us -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 p-t-75 p-b-20">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="wrap-pic-welcome size2 bo-rad-10 hov-img-zoom m-l-r-auto">
+                            <img src="images/About-Us.jpg" alt="About Us">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 p-t-10 p-b-50 text-center">
+                <div class="row">
+                    <div class="col-12 p-t-175 d-none d-md-block d-lg-block"></div>
+                    <div class="col-12">
+                        <div class="wrap-text-welcome t-center">
+                            <span class="tit2 t-center">Discover</span>
+                            <h3 class="tit3 t-center m-b-10 m-t-5">
+                                About Us
+                            </h3>
+                            <button class="btn3 size13 txt11 trans-0-4"
+                                onclick="window.open('https://drive.google.com/open?id=1-feThChOa3rzMwXVE3dX1KfBZ_AADfTb')">
+                                Learn More <i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-------------------------------------------------------------------------------------------------------------------------------------------------->
     <!-------------------------------------------------------------------------------------------------------------------------------------------------->
@@ -228,7 +268,6 @@
             <div class="title-section-visi t-center m-b-0">
                 <span class="tit3 p-l-15 p-r-15">VISI</span>
             </div>
-
             <div class="row">
                 <div class="col-md-12 p-t-5 p-b-0">
                     <div class="alert text-center  alert-primary" role="alert">
@@ -239,11 +278,9 @@
                     </div>
                 </div>
             </div>
-
             <div class="title-section-misi t-center m-b-0">
                 <span class="tit3 p-l-15 p-r-15">MISI</span>
             </div>
-
             <div class="row">
                 <div class="col-md-12 p-t-5 p-b-50">
                     <div class="alert text-center alert-primary" role="alert">
@@ -268,21 +305,29 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 p-b-20">
-                <div class="wrap-pic-welcome size2 bo-rad-10 hov-img-zoom m-l-r-auto">
-                    <img src="images/Android.jpg" alt="Android">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="wrap-pic-welcome size2 bo-rad-10 hov-img-zoom m-l-r-auto">
+                            <img src="images/Android.jpg" alt="Android">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- <div class="col-md-6 p-t-125 p-b-50 d-none d-md-block d-lg-block"> -->
-            <div class="col-md-6 p-t-125 p-b-50 text-center d-sm-block d-lg-block">
-                <div class="wrap-text-welcome t-center">
-                    <span class="tit2 t-center">Get Us</span>
-                    <h3 class="tit3 t-center m-b-35 m-t-5">
-                        On Android
-                    </h3>
-                    <button class="btn3 size13 txt11 trans-0-4"
-                        onclick="window.open('https://drive.google.com/open?id=1-feThChOa3rzMwXVE3dX1KfBZ_AADfTb')">
-                        Download Now <i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
-                    </button>
+            <div class="col-md-6 p-t-10 p-b-50 text-center">
+                <div class="row">
+                    <div class="col-12 p-t-125 d-none d-md-block d-lg-block"></div>
+                    <div class="col-12">
+                        <div class="wrap-text-welcome t-center">
+                            <span class="tit2 t-center">Get Us</span>
+                            <h3 class="tit3 t-center m-b-10 m-t-5">
+                                On Android
+                            </h3>
+                            <button class="btn3 size13 txt11 trans-0-4"
+                                onclick="window.open('https://drive.google.com/open?id=1-feThChOa3rzMwXVE3dX1KfBZ_AADfTb')">
+                                Download Now <i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -587,18 +632,32 @@
                 <div class="col-md-8">
                     <div class="row">
                         <div class="col-12">
-                            <!-- Item -->
                             <div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-                                <img src="images/LDKO.jpg" alt="LDKO">
-                                <div class="overlay">LDKO</div>
+                                <img src="images/Gallery-LDKO.jpg" alt="LDKO">
+                                <div class="btngallery flex-c-m txtbtngallery ab-b-r sizebtngallery">
+                                    LDKO
+                                </div>
                             </div>
                         </div>
 
                         <div class="col-12">
-                            <!-- Item -->
-                            <div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-                                <img src="images/Staff.jpg" alt="Staff">
-                                <div class="overlay">Staff</div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
+                                        <img src="images/Gallery-Staff.jpg" alt="Staff">
+                                        <div class="btngallery flex-c-m txtbtngallery ab-b-r sizebtngallery">
+                                            Staff
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
+                                        <img src="images/Gallery-Family-Gathering.jpg" alt="Family Gathering">
+                                        <div class="btngallery flex-c-m txtbtngallery ab-b-r sizebtngallery">
+                                            Family Gathering
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -607,26 +666,29 @@
                 <div class="col-md-4">
                     <div class="row">
                         <div class="col-12">
-                            <!-- Item -->
                             <div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-                                <img src="images/Network-Gallery.jpg" alt="Network Training">
-                                <div class="overlay">Network Training</div>
+                                <img src="images/Gallery-Network.jpg" alt="Network Training">
+                                <div class="btngallery flex-c-m txtbtngallery ab-b-r sizebtngallery">
+                                    Network Training
+                                </div>
                             </div>
                         </div>
 
                         <div class="col-12">
-                            <!-- Item -->
                             <div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-                                <img src="images/Graphic-Gallery.jpg" alt="Graphic Training">
-                                <div class="overlay">Graphic Training</div>
+                                <img src="images/Gallery-Graphic.jpg" alt="Graphic Training">
+                                <div class="btngallery flex-c-m txtbtngallery ab-b-r sizebtngallery">
+                                    Design Training
+                                </div>
                             </div>
                         </div>
 
                         <div class="col-12">
-                            <!-- Item -->
                             <div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-                                <img src="images/Program-Gallery.jpg" alt="Programming Training">
-                                <div class="overlay">Programming Training</div>
+                                <img src="images/Gallery-Program.jpg" alt="Programming Training">
+                                <div class="btngallery flex-c-m txtbtngallery ab-b-r sizebtngallery">
+                                    Program Training
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -634,17 +696,19 @@
             </div>
             <div class="row">
                 <div class="col-sm-6">
-                    <!-- Item -->
                     <div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-                        <img src="images/Donor-Gallery.jpg" alt="Blood Donation">
-                        <div class="overlay">Blood Donation</div>
+                        <img src="images/Gallery-Donor.jpg" alt="Blood Donation">
+                        <div class="btngallery flex-c-m txtbtngallery ab-b-r sizebtngallery">
+                            Blood Donation
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <!-- Item -->
                     <div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-                        <img src="images/Seminar-Gallery.jpg" alt="Seminar Nasional">
-                        <div class="overlay">National Seminar</div>
+                        <img src="images/Gallery-Seminar.jpg" alt="Seminar Nasional">
+                        <div class="btngallery flex-c-m txtbtngallery ab-b-r sizebtngallery">
+                            National Seminar
+                        </div>
                     </div>
                 </div>
             </div>
@@ -700,7 +764,7 @@
                                 Graphicom
                             </h4>
                             <button type="button" class="btn txt5 btn-outline-primary"
-                                onclick="window.open('Graphicom.html')">
+                                onclick="window.open('Graphicom/Graphicom.html')">
                                 Visit
                                 <i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
                             </button>
@@ -746,7 +810,8 @@
 
                     <ul class="m-b-50">
                         <li class="txt14 m-b-14">
-                            <i class="fa fa-map-marker fs-16 dis-inline-block size19" aria-hidden="true"></i> Jl.
+                            <i class="fa fa-map-marker fs-16 dis-inline-block size19" aria-hidden="true"></i>
+                            Jl.
                             Raya Serang Km. 10 Pos Bitung, Kadu Jaya, Curug, Kadu Jaya, Kec. Curug, Tangerang,
                             Banten 15810
                         </li>
@@ -767,7 +832,7 @@
 
         <div class="end-footer bgfooter">
             <div class="container">
-                <div class="flex-sb-m flex-w p-t-22 ">
+                <div class="flex-sb-m flex-w p-t-15 ">
                     <div class="p-t-5 p-b-5">
                         <a href="#" onclick="return false;" class="fs-15 c-white"><i class="fa fa-instagram"
                                 aria-hidden="true"></i></a>
@@ -777,9 +842,9 @@
                                 aria-hidden="true"></i></a>
                     </div>
 
-                    <div class="txt17 p-r-15 p-t-5 p-b-5">
+                    <div class="txt17 p-r-15 p-t-0 p-b-5">
                         Copyright &copy; 2020 All rights reserved | Community of Information Technology <img
-                            src="images/icons/Footer-Marquee.png" class="p-l-15">
+                            src="images/Robocom-Footer.svg" class="p-l-15">
                     </div>
                 </div>
             </div>
@@ -828,7 +893,7 @@
                     <div class="container register">
                         <div class="row">
                             <div class="col-md-3 register-left">
-                                <img src="images/Robocom.png" alt="Robocom" />
+                                <img src="images/Robocom.svg" alt="Robocom" />
                                 <h5>Community of Information Technology</h5>
                                 <p>Salam Teknologi !</p>
                             </div>
@@ -927,7 +992,6 @@
                                                     </select>
                                                 </div> -->
                                                     <input type="submit" class="btnRegister" value="Register" />
-                                                    <button type="reset" class="btnRegister">Reset</button>
                                                 </div>
                                                 </form>
 
