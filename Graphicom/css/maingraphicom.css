@@ -569,7 +569,7 @@ input[type="date"i] {
     top: 0;
     left: 0;
     z-index: 100;
-    ;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .wrap_header {
@@ -590,7 +590,7 @@ input[type="date"i] {
     position: fixed;
     height: 100px;
     background: rgba(255, 255, 255, 0.9);
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -1149,10 +1149,9 @@ input[type="date"i] {
 */
 
 .btnprice {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
     border: 0.5px solid #EF430C;
-    opacity: 1;
 }
 
 .btnprice:hover {
@@ -1167,7 +1166,7 @@ input[type="date"i] {
 */
 
 .btnorder {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
     border: 0.5px solid #4FA149;
     opacity: 1;

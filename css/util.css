@@ -10841,6 +10841,9 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE   RESPONSIVE
     .bo-none-md {
         border: none;
     }
+    .txtmobile {
+        font-size: 30px;
+    }
 }
 
 
