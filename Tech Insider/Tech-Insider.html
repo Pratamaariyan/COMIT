@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tech Insider</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/icons/Favicon.png" />
+    <!--===============================================================================================-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/themify/themify-icons.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/lightbox2/css/lightbox.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/utiltechinsider.css">
+    <link rel="stylesheet" type="text/css" href="css/maintechinsider.css">
+    <!--===============================================================================================-->
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+
+</head>
+
+<body class="animsition">
+
+    <!-- Header -->
+    <header>
+        <!-- Header desktop -->
+        <div class="wrap-menu-header gradient1 trans-0-4">
+            <div class="container h-full">
+                <div class="wrap_header trans-0-3">
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a href="#">
+                            <img src="images/icons/Logo-1.svg" alt="IMG-LOGO" data-logofixed="images/icons/Logo-2.svg">
+                        </a>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="wrap_menu p-l-45 p-l-0-xl">
+                        <nav class="menu">
+                            <ul class="main_menu">
+                                <li>
+                                    <a href="#Gallery">Gallery</a>
+                                </li>
+
+                                <li>
+                                    <a href="#Contact">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Jumbotron -->
+    <section class="section-slide" id="home">
+        <div class="item-slick1 item1-slick1 d-none d-md-block d-lg-block" style="background-image: url(images/photos/Home-1.jpg);">
+        </div>
+        <div class="item-slick1 item1-slick1 d-sm-block d-md-none" style="background-image: url(images/photos/Home-2.jpg);">
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <div class="section-gallery p-t-118 p-b-100" id="Gallery">
+        <div class="wrap-label-gallery filter-tope-group size27 flex-w flex-sb-m m-l-r-auto flex-col-c-sm p-l-15 p-r-15 m-b-60">
+            <button class="label-gallery txt26 trans-0-4 is-actived" data-filter="*">
+                All Types
+            </button>
+
+            <button class="label-gallery txt26 trans-0-4" data-filter=".T-Shirt">
+                T-Shirt
+            </button>
+
+            <button class="label-gallery txt26 trans-0-4" data-filter=".Shirt">
+                Shirt
+            </button>
+
+            <button class="label-gallery txt26 trans-0-4" data-filter=".Hoodie">
+                Hoodie
+            </button>
+
+            <button class="label-gallery txt26 trans-0-4" data-filter=".Jeans">
+                Jeans
+            </button>
+
+            <button class="label-gallery txt26 trans-0-4" data-filter=".Best">
+                Best Seller
+            </button>
+        </div>
+
+        <div class="wrap-gallery isotope-grid flex-w p-l-25 p-r-25" id="List-1">
+            <!-- A1 -->
+            <div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events T-Shirt">
+                <img src="images/photos/Preview-1.jpg" alt="Preview-1">
+
+                <div class="overlay-item-gallery trans-0-4 flex-c-m">
+                    <a class="btn-show-gallery flex-c-m fa fa-search" href="images/photos/Preview-1.jpg" data-lightbox="gallery"></a>
+                </div>
+            </div>
+
+            <!-- A2 -->
+            <div class="item-gallery isotope-item bo-rad-10 hov-img-zoom T-Shirt Best">
+                <img src="images/photos/Preview-2.jpg" alt="Preview-2">
+
+                <div class="overlay-item-gallery trans-0-4 flex-c-m">
+                    <a class="btn-show-gallery flex-c-m fa fa-search" href="images/photos/Preview-2.jpg" data-lightbox="gallery"></a>
+                </div>
+            </div>
+
+            <!-- A3 -->
+            <div class="item-gallery isotope-item bo-rad-10 hov-img-zoom T-Shirt">
+                <img src="images/photos/Preview-3.jpg" alt="Preview-3">
+
+                <div class="overlay-item-gallery trans-0-4 flex-c-m">
+                    <a class="btn-show-gallery flex-c-m fa fa-search" href="images/photos/Preview-3.jpg" data-lightbox="gallery"></a>
+                </div>
+            </div>
+
+            <!-- A4 -->
+            <div class="item-gallery isotope-item bo-rad-10 hov-img-zoom T-Shirt Best">
+                <img src="images/photos/Preview-4.jpg" alt="Preview-4">
+
+                <div class="overlay-item-gallery trans-0-4 flex-c-m">
+                    <a class="btn-show-gallery flex-c-m fa fa-search" href="images/photos/Preview-4.jpg" data-lightbox="gallery"></a>
+                </div>
+            </div>
+
+            <!-- A5 -->
+            <div class="item-gallery isotope-item bo-rad-10 hov-img-zoom T-Shirt Best">
+                <img src="images/photos/Preview-5.jpg" alt="Preview-5">
+
+                <div class="overlay-item-gallery trans-0-4 flex-c-m">
+                    <a class="btn-show-gallery flex-c-m fa fa-search" href="images/photos/Preview-5.jpg" data-lightbox="gallery"></a>
+                </div>
+            </div>
+
+            <!-- A6 -->
+            <div class="item-gallery isotope-item bo-rad-10 hov-img-zoom T-Shirt">
+                <img src="images/photos/Preview-6.jpg" alt="Preview-6">
+
+                <div class="overlay-item-gallery trans-0-4 flex-c-m">
+                    <a class="btn-show-gallery flex-c-m fa fa-search" href="images/photos/Preview-6.jpg" data-lightbox="gallery"></a>
+                </div>
+            </div>
+
+            <!-- A7 -->
+            <div class="item-gallery isotope-item bo-rad-10 hov-img-zoom T-Shirt">
+                <img src="images/photos/Preview-7.jpg" alt="Preview-7">
+
+                <div class="overlay-item-gallery trans-0-4 flex-c-m">
+                    <a class="btn-show-gallery flex-c-m fa fa-search" href="images/photos/Preview-7.jpg" data-lightbox="gallery"></a>
+                </div>
+            </div>
+
+            <!-- A8 -->
+            <div class="item-gallery isotope-item bo-rad-10 hov-img-zoom T-Shirt">
+                <img src="images/photos/Preview-8.jpg" alt="Preview-8">
+
+                <div class="overlay-item-gallery trans-0-4 flex-c-m">
+                    <a class="btn-show-gallery flex-c-m fa fa-search" href="images/photos/Preview-8.jpg" data-lightbox="gallery"></a>
+                </div>
+            </div>
+
+            <!-- A9 -->
+            <div class="item-gallery isotope-item bo-rad-10 hov-img-zoom T-Shirt">
+                <img src="images/photos/Preview-9.jpg" alt="Preview-9">
+
+                <div class="overlay-item-gallery trans-0-4 flex-c-m">
+                    <a class="btn-show-gallery flex-c-m fa fa-search" href="images/photos/Preview-9.jpg" data-lightbox="gallery"></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="pagination flex-c-m flex-w p-l-15 p-r-15 m-t-24 m-b-50">
+            <a href="#List-1" class="item-pagination flex-c-m trans-0-4 active-pagination">1</a>
+            <a href="#List-2" class="item-pagination flex-c-m trans-0-4">2</a>
+            <a href="#List-3" class="item-pagination flex-c-m trans-0-4">3</a>
+        </div>
+    </div>
+
+    <!-------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!-------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <!-- Footer -->
+    <footer class="page-footer" style="background-color: #1C2331; color: white">
+        <div class="container">
+            <div class="row text-center d-flex justify-content-center pt-4 mb-3">
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!">About us</a>
+                    </h6>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!">Products</a>
+                    </h6>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!">Awards</a>
+                    </h6>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!">Help</a>
+                    </h6>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!">Contact</a>
+                    </h6>
+                </div>
+
+            </div>
+            <hr class="rgba-white-light" style="margin: 5 10%;">
+            <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+                <div class="col-md-8 col-12 mt-2">
+                    <img src="images/icons/Logo-Footer.svg">
+                </div>
+            </div>
+            <hr class="clearfix d-md-none rgba-white-light">
+            <div class="row pb-3">
+                <div class="col-md-12 text-center">
+                    <div class="p-t-20 p-b-5">
+                        <a href="#" onclick="return false;" class="fs-15 c-white"><i class="fa fa-instagram"
+                                aria-hidden="true"></i></a>
+                        <a href="#" onclick="return false;" class="fs-15 c-white"><i class="fa fa-facebook m-l-18"
+                                aria-hidden="true"></i></a>
+                        <a href="#" onclick="return false;" class="fs-15 c-white"><i class="fa fa-twitter m-l-18"
+                                aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="txt17 text-center p-t-10 p-b-10" style="background-color: #161C27; color: white">
+            Copyright &copy;
+            <script>
+                document.write(new Date().getFullYear());
+            </script>
+            All rights reserved | Tech Insider
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <div class="btn-back-to-top bg0-hov" id="myBtn">
+        <span class="symbol-btn-back-to-top">
+            <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+        </span>
+    </div>
+
+
+
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="vendor/bootstrap/js/popper.js"></script>
+    <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="vendor/daterangepicker/moment.min.js"></script>
+    <script type="text/javascript" src="vendor/daterangepicker/daterangepicker.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/slick-custom.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="vendor/parallax100/parallax100.js"></script>
+    <script type="text/javascript">
+        $('.parallax100').parallax100();
+    </script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="vendor/countdowntime/countdowntime.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="vendor/lightbox2/js/lightbox.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="vendor/isotope/isotope.pkgd.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
