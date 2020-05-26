@@ -9856,7 +9856,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .tit3 {
     font-family: Poppins;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 1.2;
     color: #222222;
     text-transform: uppercase;
@@ -9936,6 +9936,15 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
     letter-spacing: 3px;
 }
 
+.title-register {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.2;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 
 /*[ Text ]
 -----------------------------------------------------------
@@ -10019,6 +10028,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
     color: #333333;
     text-transform: uppercase;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 .txt5a {
