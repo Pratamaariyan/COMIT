@@ -212,13 +212,6 @@ if (isset($_POST["submit"])) {
                 </a>
             </li>
 
-            <li class="t-center p-t-30">
-                <!-- Button3 -->
-                <!-- <a id="myBtnRegis" href="#" onclick="MyFunction();" class="btnregist flex-c-m sizebtnregist txtbtnregist trans-0-4 m-l-r-auto">
-                    Registrasi
-                </a> -->
-            </li>
-            <br>
             <li class="t-center m-b-13">
                 <img src="images/icons/Robocom-Sidebar.svg">
             </li>

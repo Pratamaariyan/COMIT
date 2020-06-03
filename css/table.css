@@ -1,0 +1,136 @@
+/*[ Member Table ]
+///////////////////////////////////////////////////////////
+*/
+
+.table-title {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.2;
+    color: #444;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 20px;
+    margin: 50px auto 30px;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 10px;
+    font-size: 14px;
+    font-family: sans-serif;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .15);
+}
+
+.content-table thead tr {
+    background-color: #009879;
+    color: #fff;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 10px 12px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.edit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.edit-button:hover {
+    background-color: #0045ff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.delete-button {
+    background-color: #ff0080;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.delete-button:hover {
+    background-color: #ff004a;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+main {
+    overflow: auto;
+    margin: 5px;
+}
+/*[ Search ]
+///////////////////////////////////////////////////////////
+*/
+.search-box {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    background: #2f3640;
+    height: 30px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.search-box:hover > .search-txt {
+    width: 240px;
+    padding: 0px 6px;
+}
+
+.search-box:hover > .search-btn {
+    background: #fff;
+}
+
+.search-btn {
+    color: #e84118;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: right;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 30px;
+    width: 0px;
+}

@@ -1,6 +1,13 @@
 <?php
 $conn = mysqli_connect("localhost", "root", "", "comit");
 
+// if($conn) {
+//     echo "database connection successfully";
+// }else {
+//      echo "database connection failed";
+// }
+// exit;
+
 function query($query)
 {
     global $conn;
